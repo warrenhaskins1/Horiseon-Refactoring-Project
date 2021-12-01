@@ -1,3 +1,7 @@
+/*Consolidate css for multiple elements/classes */
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +10,7 @@
 
 body {
     background-color: #d9dcd6;
+    
 }
 
 /*Changed header from class selector to element selector*/
@@ -48,9 +53,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Removed p class--> font-size: 16px as that is the default standard and unnecessary to include */
 
 .hero {
     height: 800px;
@@ -77,6 +80,7 @@ p {
     margin-left: 20px;
 }
 
+/* Added color #ffffff to benefits class/removed from children*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,74 +90,38 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Consolidated classes to avoid repetition */
+.benefit-lead, 
+.benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    
 }
 
-.benefit-lead h3 {
+ /* Consolidated classes to avoid repetition */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3
+ {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Consolidated classes to avoid repetition */
+.benefit-lead img, 
+.benefit-brand img, 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+ /* Consolidated classes to avoid repetition */
+.search-engine-optimization, 
+.online-reputation-management, 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -163,32 +131,23 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+ /* Consolidated classes to avoid repetition */
+.search-engine-optimization img, 
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+ 
+/* Consolidated classes to avoid repetition */
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+ 
 
 /*changed footer from class selector to element selector */
 footer {
