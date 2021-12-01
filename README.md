@@ -23,7 +23,7 @@ Horiseon html/css refactoring Assignment 01
 
 - The user may access the webpage to get an overview of Horiseon's services regarding Search Engine Optimization, Online Reputation Management and Social Media Marketing.
 
-![image](assets\images\Horiseon.png)
+![image](assets/images/Horiseon.png)
 
 ## Credits
 
