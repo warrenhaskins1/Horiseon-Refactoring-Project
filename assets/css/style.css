@@ -1,7 +1,5 @@
 /*Consolidate css for multiple elements/classes */
 
-
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -37,10 +35,6 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
 }
 
 header nav ul li {
@@ -157,6 +151,4 @@ footer {
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
-}
+
