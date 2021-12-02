@@ -1,5 +1,7 @@
 # Horiseon-Refactoring-Project
-Horiseon html/css refactoring Assignment 01
+- Horiseon html/css refactoring Assignment 01
+
+- https://github.com/warrenhaskins1/Horiseon-Refactoring-Project
 
 ## Description
 
